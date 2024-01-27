@@ -36,7 +36,7 @@ function App() {
 
   return (
     <>
-      <div className='text-black px-5 py-5 rounded-md text-center justify-center m-5 bg-gray-400 text-black mx-12 mt-32'>
+      <div className='text-black px-5 py-5 rounded-md text-center justify-center m-5 bg-gray-400 text-black mt-32'>
         <h2 className="text-2xl mb-4"><b>Password Generator</b></h2>
         <div className="flex items-center justify-center mb-4">
           <input

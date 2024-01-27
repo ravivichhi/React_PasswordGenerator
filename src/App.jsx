@@ -43,8 +43,9 @@ function App() {
             type="text"
             className="border border-gray-600 rounded px-2 py-1 mr-2 w-56 text-black"
             placeholder="Generated Password"
-            value={password}
+            value={password || ''}
             ref={passwordRef}
+            readOnly
           />
           <button 
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
@@ -59,7 +60,7 @@ function App() {
             className="w-30"
             min={6}
             max={20}
-            value={length}
+            value={length || ''}
             onChange={(e) => {setLength(e.target.value)}}
           />
           <label>Length : {length}</label>

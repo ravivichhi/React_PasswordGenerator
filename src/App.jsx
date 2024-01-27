@@ -36,8 +36,8 @@ function App() {
 
   return (
     <>
-      <div className=' text-white px-5 py-5 rounded-md text-center justify-center m-5 bg-gray-300 text-black'>
-        <h2 className="text-2xl mb-4">Password Generator</h2>
+      <div className=' text-black px-5 py-5 rounded-md text-center justify-center m-5 bg-gray-300 text-black' style={{ width:'40%',margin:'auto',marginTop:'150px' }}>
+        <h2 className="text-2xl mb-4"><b>Password Generator</b></h2>
         <div className="flex items-center justify-center mb-4">
           <input
             type="text"
